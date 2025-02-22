@@ -1,0 +1,3 @@
+# Dart: Handling potential IndexOutOfBoundsException in API responses
+
+This repository demonstrates a common error in Dart when handling API responses that might not always contain the expected amount of data. The `bug.dart` file showcases code susceptible to an `IndexOutOfBoundsException` if the API returns an empty or shorter-than-expected JSON list. The `bugSolution.dart` provides a corrected approach to avoid this error.  The solution includes robust error handling and checks to prevent unexpected index access.
